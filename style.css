@@ -31,8 +31,8 @@
 .content{
     background-color: #f0f0f0;
 }
-#myButton{
-    margin-bottom: 20px;
+#loginform button{
+    margin-top: 10px;
 }
 #Facebook a{
     text-decoration: none;
@@ -51,7 +51,7 @@
     padding: 20px;
     width: fit-content;
     margin-top: 20px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 #dance{
     margin-top: 30px;
@@ -60,4 +60,7 @@
 }
 #dance p{
     text-align: center;
+}
+#loginform{
+    margin-bottom: 10px;
 }
