@@ -1,0 +1,17 @@
+#myTable{
+    border: 1px solid black;
+    padding: 10px;
+    width: fit-content;
+}
+#myTable td{
+    line-height: 0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+.content{
+    background-color: #f0f0f0;
+}
+#myButton{
+    margin-bottom: 20px;
+}
