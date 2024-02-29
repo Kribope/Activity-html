@@ -3,6 +3,22 @@
     padding: 10px;
     width: fit-content;
 }
+#home ul {
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+}
+#home li {
+    margin: 0 10px;
+}
+#home a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-family: Roboto;
+}
 #myTable td{
     line-height: 0;
     padding: 20px;
@@ -32,4 +48,5 @@
     padding: 20px;
     width: fit-content;
     margin-top: 20px;
+    margin-bottom: 30px;
 }
