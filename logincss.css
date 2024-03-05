@@ -1,0 +1,64 @@
+body{
+    background-image: url(backgroundlogin.jpg);
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+.loginform {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center the form horizontally and vertically */
+    width: 400px; /* Adjust the width as needed */
+    padding: 160px 40px;
+    background-color: rgba(42, 42, 42, 0.8); /* Use rgba for background color with transparency */
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+
+.loginform label {
+    color: #ffffff;
+    font-size: 22px; /* Increase label font size */
+    margin-bottom: 15px;
+}
+
+.loginform input[type="text"],
+.loginform input[type="password"] {
+    width: calc(100% - 20px); /* Adjust width to account for padding */
+    padding: 10px;
+    border-radius: 50px;
+    border: 1px solid #ccc;
+    font-size: 20px; /* Increase input font size */
+    margin-bottom: 50px;
+}
+
+.loginform button {
+    padding: 12px 60px;
+    background-color: #cd812a;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 19px; /* Increase button font size */
+}
+
+.loginform button:hover {
+    background-color: #b56d22;
+}
+.sbmtbtn {
+    margin-top: 30px; /* Adjust margin top as needed */
+    padding: 12px 24px;
+    background-color: #cd812a;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px; /* Increase button font size */
+    transition: background-color 0.3s ease; /* Add transition for smooth hover effect */
+}
+
+.sbmtbtn:hover {
+    background-color: #b56d22; /* Change background color on hover */
+}

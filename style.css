@@ -1,49 +1,96 @@
-#myTable{
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(27, 28, 27);
+    font-family: Roboto;
+}
+.myTable{
     border: 1px solid black;
     padding: 10px;
     width: fit-content;
+    text-align: center;
 }
-#myTable td{
+.myTable td{
     line-height: 0;
     padding: 20px;
     border: 1px solid #ccc;
-    text-align: center;
 }
 #ilikemebetter{
     padding: 30px;
 }
-#home ul {
-    margin-bottom: 50px;
+.home ul li{
+    display: inline-block;
+    border-right: 2px solid #000000;
+    padding-right: 20px;
+}
+.home ul {
     display: flex;
-    justify-content: center;
+    justify-content: first baseline;
     list-style-type: none;
-    padding: 0;
 }
-#home li {
-    margin: 0 10px;
+.home li {
+    margin: 0 15px;
 }
-#home a{
+.home a{
     text-decoration: none;
     color: black;
     font-size: 18px;
     font-family: Roboto;
+    background: linear-gradient(90deg, #cd812a, #000000);
+    -webkit-backdrop-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
-.content{
-    background-color: #f0f0f0;
+.home{
+    background-color: #c47908;
+    color: white;
+    padding: 10px;
 }
-#loginform button{
-    margin-top: 10px;
+#content{
+    background-color: #cd812a;
 }
-#Facebook a{
+#Facebook {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Center the content vertically */
+    height: 100vh; /* Set height to cover the entire viewport */
+    padding: 20px;
+}
+
+#Facebook a {
     text-decoration: none;
-    color: chocolate;
+    color: #cd812a;
+}
+
+#Facebook img {
+    filter: grayscale(100%);
+    cursor: pointer;
+    border-radius: 50%;
+}
+#Facebook img:hover{
+    filter: grayscale(0%);
+}
+#Facebook h3{
+    margin-top: -150px;
 }
 #about{
-    background-color: #f0f0f0;
+    background-color: rgb(123, 123, 123);
+    border: 2px solid #333;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    background: linear-gradient(45deg, #000000, #cd812a);
     color: #333;
     padding: 20px;
     width: fit-content;
     margin-bottom: 20px;
+    text-align: center;
+}
+#about p{
+    color: white;
+}
+#about h3{
+    color: white;
 }
 #contact{
     background-color: #f0f0f0;
@@ -61,6 +108,6 @@
 #dance p{
     text-align: center;
 }
-#loginform{
-    margin-bottom: 10px;
+#Form{
+    margin-top: 100px;
 }
